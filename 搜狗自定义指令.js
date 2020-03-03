@@ -1,4 +1,4 @@
-
+//搜狗自定义指令
 //----qqget
 this.$ajax({
   method: 'get',
