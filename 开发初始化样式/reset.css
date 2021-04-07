@@ -1,4 +1,3 @@
-@charset "utf-8";
 @import "./normalize.css";
 /*通用属性*/
 * {
@@ -6,7 +5,13 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-
+html{
+  font-size: 62.5%;
+  /*font: 14px "microsoft yahei", Arial, Helvetica, sans-serif;*/
+  /*font-size: 14px;*/
+  font-family: "Microsoft YaHei","微软雅黑", "Arial", "sans-serif";
+  background-color: #FFFFFF;
+}
 html, body {
   width: 100%;
   height: 100%;
@@ -14,14 +19,6 @@ html, body {
   -ms-text-size-adjust: 100%;
   /* 解决IOS默认滑动很卡的情况 */
   -webkit-overflow-scrolling: touch;
-}
-
-body {
-  /*font: 14px "microsoft yahei", Arial, Helvetica, sans-serif;*/
-  /*font-size: 14px;*/
-  font-family: "Microsoft YaHei","微软雅黑", "Arial", "sans-serif";
-  background-color: #FFFFFF;
-  -webkit-text-size-adjust: 100%;
 }
 
 body, h1, h2, h3, h4, h5, h6, p, ul, li, ol, dl, dt, dd, th, td, img, textarea, input, select, button, pre, form, blockquote, fieldset {
@@ -48,9 +45,9 @@ a:visited {
 }
 
 a:hover, a:active, a:focus {
-  /*text-decoration: none;*/
+  text-decoration: none;
   /*文本下的一条线*/
-  text-decoration: underline;
+  /*text-decoration: underline;*/
   /*穿过文本下的一条线*/
   /*text-decoration:line-through;*/
 }
