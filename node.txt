@@ -1,0 +1,3 @@
+快速删除node_modules目录：
+  npm install rimraf -g
+  rimraf node_modules
